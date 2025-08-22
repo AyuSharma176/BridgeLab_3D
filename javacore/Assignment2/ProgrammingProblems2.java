@@ -111,8 +111,6 @@ public class ProgrammingProblems2 {
         System.out.printf("The results of Double Operations are %.2f, %.2f, %.2f, and %.2f\n",
                 res1_double, res2_double, res3_double, res4_double);
         System.out.println("----------------------------------------");
-        
-        // Close the scanner to prevent resource leaks
         input.close();
     }
 }
