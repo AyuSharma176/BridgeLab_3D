@@ -126,6 +126,5 @@ public class Level1PracticePrograms {
             }
             for (int i = 0; i <= fbNum; i++) System.out.println("Position " + i + " = " + fbArr[i]);
         }
-        sc.close();
     }
 }
