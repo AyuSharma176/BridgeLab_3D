@@ -13,7 +13,6 @@ public class Main {
         Patient patient2 = new Patient("Anshitva", 45, "Fracture", "P002");
         HospitalService.admitPatient();
 
-        // Display total number of patients
         displayService.displayTotalPatients();
         System.out.println();
 
