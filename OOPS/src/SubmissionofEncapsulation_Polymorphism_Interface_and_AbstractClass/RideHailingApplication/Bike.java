@@ -7,7 +7,6 @@ class Bike extends Vehicle {
 
     @Override
     public double calculateFare(double distance) {
-        // Bikes have no base fare
         return distance * getRatePerKm();
     }
 }
